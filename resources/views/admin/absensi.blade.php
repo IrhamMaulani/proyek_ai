@@ -10,75 +10,56 @@
 @stop
 
 @section('content')
+   <h2>Selamat Datang, Admin</h2>
 
-   <section class="content">
-    <div class="row">
+   <div class="row">
+    <div class="col-lg-3 col-xs-6">
+      <!-- small box -->
+      <div class="small-box bg-aqua">
+        <div class="inner">
+          <h3>500</h3>
 
-            <div class="box box-default">
-            <div class="box-header with-border">
-              <h3 class="box-title">Absensi</h3>
-    
-              
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-                    <form class="form-horizontal" action="/action_page.php">
-                        <div class="form-group">
-                          <label class="control-label col-sm-2" for="nama">Nama:</label>
-                          <div class="col-sm-10">
-                            <input type="text" class="form-control" id="email" placeholder="Masukan Nama">
-                          </div>
-                        </div>
-                        <div class="form-group">
-                          <label class="control-label col-sm-2" for="nim">Nim:</label>
-                          <div class="col-sm-10"> 
-                            <input type="text" class="form-control" id="pwd" placeholder="Masukan Nim">
-                          </div>
-                        </div>
-                        <div class="form-group">
-                                <label class="control-label col-sm-2" for="pwd">Password:</label>
-                                <div class="col-sm-10"> 
-                                  <input type="text" class="form-control" id="pwd" placeholder="Enter password">
-                                </div>
-                              </div>
-                              <div class="form-group">
-                                    <label class="control-label col-sm-2" for="pwd">Password:</label>
-                                    <div class="col-sm-10"> 
-                                      <input type="text" class="form-control" id="pwd" placeholder="Enter password">
-                                    </div>
-                                  </div>
-                                  <div class="form-group">
-                                        <label class="control-label col-sm-2" for="pwd">Password:</label>
-                                        <div class="col-sm-10"> 
-                                          <input type="text" class="form-control" id="pwd" placeholder="Enter password">
-                                        </div>
-                                      </div>
-                                      <div class="form-group">
-                                            <label class="control-label col-sm-2" for="pwd">Password:</label>
-                                            <div class="col-sm-10"> 
-                                              <input type="text" class="form-control" id="pwd" placeholder="Enter password">
-                                            </div>
-                                          </div>
-                        <div class="form-group"> 
-                          <div class="col-sm-offset-2 col-sm-10">
-                          </div>
-                        </div>
-                        <div class="form-group"> 
-                          <div class="col-sm-offset-2 col-sm-10">
-                            <button type="submit" class="btn btn-default">Submit</button>
-                          </div>
-                        </div>
-                      </form>
-
-
-           
-              <!-- /.row -->
-            </div>
-            <!-- /.box-body -->
-          </div>
-
+          <p>Jumlah Mahasiswa</p>
+        </div>
+        <div class="icon">
+          <i class="ion ion-person"></i>
+        </div>
+        <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+      </div>
     </div>
-   </section>
+    <!-- ./col -->
+    <div class="col-lg-3 col-xs-6">
+      <!-- small box -->
+      <div class="small-box bg-green">
+        <div class="inner">
+            <h3>150</h3>
+
+          <p>Absensi Hari Ini</p>
+        </div>
+        <div class="icon">
+          <i class="ion ion-clock"></i>
+        </div>
+        <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+      </div>
+    </div>
+    <!-- ./col -->
+    <div class="col-lg-3 col-xs-6">
+      <!-- small box -->
+      <div class="small-box bg-yellow">
+        <div class="inner">
+            <h3>53<sup style="font-size: 20px">%</sup></h3>
+
+          <p>Presentase Kehadiran</p>
+        </div>
+        <div class="icon">
+          <i class="ion ion-stats-bars"></i>
+        </div>
+        <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+      </div>
+    </div>
+  </div>
+  <!-- /.row -->
+  <!-- Main row -->
 
 @stop
 
@@ -89,3 +70,6 @@
 @section('js')
     <script> console.log('Hi!'); </script>
 @stop
+
+
+
